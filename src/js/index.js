@@ -18,9 +18,10 @@ function Trafficlight() {
 	const [color, setcolor] = useState("red");
 	return (
 		<ul className="trafficl">
-			<li> red </li>
-			<li>yellow</li>
-			<li>green</li>
+			<li className="red"> red </li>
+
+			<li className="yellow">yellow</li>
+			<li className="green">green</li>
 		</ul>
 	);
 }
